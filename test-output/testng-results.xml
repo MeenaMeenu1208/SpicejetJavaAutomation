@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="11" failed="5" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-12T07:58:37 IST" name="Suite" finished-at="2023-06-12T08:19:46 IST" duration-ms="1269406">
+    <groups>
+    </groups>
+    <test started-at="2023-06-12T07:58:37 IST" name="Test" finished-at="2023-06-12T08:19:46 IST" duration-ms="1269406">
+      <class name="testCases.addOnsPageTestCase">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.addOnsPageTestCase@5b03b9fe]" started-at="2023-06-12T08:17:00 IST" name="start" finished-at="2023-06-12T08:17:22 IST" duration-ms="21696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="addOnsPageTC()[pri:0, instance:testCases.addOnsPageTestCase@5b03b9fe]" started-at="2023-06-12T08:17:22 IST" name="addOnsPageTC" finished-at="2023-06-12T08:19:46 IST" duration-ms="143795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOnsPageTC -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.addOnsPageTestCase@5b03b9fe]" started-at="2023-06-12T08:19:46 IST" name="close" finished-at="2023-06-12T08:19:46 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.addOnsPageTestCase -->
+      <class name="testCases.roundTripePageTestCase">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.roundTripePageTestCase@342c38f8]" started-at="2023-06-12T07:59:48 IST" name="start" finished-at="2023-06-12T08:00:15 IST" duration-ms="26322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="oneWayTripTestcases(java.lang.String,java.lang.String)[pri:0, instance:testCases.roundTripePageTestCase@342c38f8]" started-at="2023-06-12T08:00:15 IST" name="oneWayTripTestcases" data-provider="getFromExcel" finished-at="2023-06-12T08:02:00 IST" duration-ms="105253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cjb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[del]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayTripTestcases -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.roundTripePageTestCase@342c38f8]" started-at="2023-06-12T08:02:00 IST" name="close" finished-at="2023-06-12T08:02:01 IST" duration-ms="916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.roundTripePageTestCase -->
+      <class name="testCases.signupPageTestcase">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.signupPageTestcase@1de76cc7]" started-at="2023-06-12T08:08:28 IST" name="start" finished-at="2023-06-12T08:08:56 IST" duration-ms="27406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="signUppagetestcases(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.signupPageTestcase@1de76cc7]" started-at="2023-06-12T08:08:56 IST" name="signUppagetestcases" data-provider="getFromExcel" finished-at="2023-06-12T08:09:45 IST" duration-ms="49111" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mani]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20/05/1998]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9751862387]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[meenameenu1313@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Meenu@120899]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Meenu@120899]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Hi Meena')]"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T2AFCJB', ip: '192.168.43.249', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48f6086a0cb8cd899e9d2f670ed6a401
+*** Element info: {Using=xpath, value=//div[contains(text(),'Hi Meena')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Hi Meena')]"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T2AFCJB', ip: '192.168.43.249', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48f6086a0cb8cd899e9d2f670ed6a401
+*** Element info: {Using=xpath, value=//div[contains(text(),'Hi Meena')]}
+at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at testCases.signupPageTestcase.signUppagetestcases(signupPageTestcase.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUppagetestcases -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.signupPageTestcase@1de76cc7]" started-at="2023-06-12T08:09:45 IST" name="close" finished-at="2023-06-12T08:09:45 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.signupPageTestcase -->
+      <class name="testCases.oneWayTripTestCases">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.oneWayTripTestCases@5d0a1059]" started-at="2023-06-12T08:05:29 IST" name="start" finished-at="2023-06-12T08:05:51 IST" duration-ms="22564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="oneWayTripTestcases(java.lang.String,java.lang.String)[pri:0, instance:testCases.oneWayTripTestCases@5d0a1059]" started-at="2023-06-12T08:05:51 IST" name="oneWayTripTestcases" data-provider="getFromExcel" finished-at="2023-06-12T08:06:04 IST" duration-ms="12879" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cjb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[del]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Hi Meena')]"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T2AFCJB', ip: '192.168.43.249', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7fea064b91c3b9bc48acf8adc973204
+*** Element info: {Using=xpath, value=//div[contains(text(),'Hi Meena')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Hi Meena')]"}
+  (Session info: chrome=114.0.5735.110)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-T2AFCJB', ip: '192.168.43.249', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.110, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d7fea064b91c3b9bc48acf8adc973204
+*** Element info: {Using=xpath, value=//div[contains(text(),'Hi Meena')]}
+at jdk.internal.reflect.GeneratedConstructorAccessor43.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at testCases.loginPageTestCases.loginPagetestcases(loginPageTestCases.java:26)
+at testCases.oneWayTripTestCases.oneWayTripTestcases(oneWayTripTestCases.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneWayTripTestcases -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.oneWayTripTestCases@5d0a1059]" started-at="2023-06-12T08:06:04 IST" name="close" finished-at="2023-06-12T08:06:05 IST" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.oneWayTripTestCases -->
+      <class name="testCases.manageBookingTestCase">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:02:01 IST" name="start" finished-at="2023-06-12T08:02:28 IST" duration-ms="27329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="manageBookingpageTestCase(java.lang.String,java.lang.String)[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:02:28 IST" name="manageBookingpageTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:03:11 IST" duration-ms="42983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CCQU7Q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mani]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageBookingpageTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:03:11 IST" name="close" finished-at="2023-06-12T08:03:12 IST" duration-ms="909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:03:12 IST" name="start" finished-at="2023-06-12T08:03:39 IST" duration-ms="26897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="manageBookingpageTestCase(java.lang.String,java.lang.String)[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:03:39 IST" name="manageBookingpageTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:04:22 IST" duration-ms="42534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[W3X3H8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meenameenu1313@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageBookingpageTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:04:22 IST" name="close" finished-at="2023-06-12T08:04:23 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:04:23 IST" name="start" finished-at="2023-06-12T08:04:46 IST" duration-ms="23659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="manageBookingpageTestCase(java.lang.String,java.lang.String)[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:04:46 IST" name="manageBookingpageTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:05:28 IST" duration-ms="41930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P3X3H9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Garner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manageBookingpageTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.manageBookingTestCase@c88a337]" started-at="2023-06-12T08:05:28 IST" name="close" finished-at="2023-06-12T08:05:29 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.manageBookingTestCase -->
+      <class name="testCases.passengerPageTestCase">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.passengerPageTestCase@485966cc]" started-at="2023-06-12T08:06:05 IST" name="start" finished-at="2023-06-12T08:06:26 IST" duration-ms="20916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="passengerPgeTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.passengerPageTestCase@485966cc]" started-at="2023-06-12T08:06:26 IST" name="passengerPgeTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:08:26 IST" duration-ms="119807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MEENA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MANI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9751862387]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[meenameenu1313@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Coimbatore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passengerPgeTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.passengerPageTestCase@485966cc]" started-at="2023-06-12T08:08:26 IST" name="close" finished-at="2023-06-12T08:08:28 IST" duration-ms="2468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.passengerPageTestCase -->
+      <class name="testCases.checkInpageTestCase">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:15:10 IST" name="start" finished-at="2023-06-12T08:15:32 IST" duration-ms="22299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="checkInTestCase(java.lang.String,java.lang.String)[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:15:32 IST" name="checkInTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:15:47 IST" duration-ms="15519" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CCQU7Q]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mani]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Check-In] but found [Check-in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Check-In] but found [Check-in]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testCases.checkInpageTestCase.checkInTestCase(checkInpageTestCase.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:15:47 IST" name="close" finished-at="2023-06-12T08:15:48 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:15:48 IST" name="start" finished-at="2023-06-12T08:16:07 IST" duration-ms="19562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="checkInTestCase(java.lang.String,java.lang.String)[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:16:07 IST" name="checkInTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:16:23 IST" duration-ms="15544" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[W3X3H8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[meenameenu1313@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Check-In] but found [Check-in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Check-In] but found [Check-in]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testCases.checkInpageTestCase.checkInTestCase(checkInpageTestCase.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:16:23 IST" name="close" finished-at="2023-06-12T08:16:23 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:16:23 IST" name="start" finished-at="2023-06-12T08:16:44 IST" duration-ms="20958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="checkInTestCase(java.lang.String,java.lang.String)[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:16:44 IST" name="checkInTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:17:00 IST" duration-ms="15275" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[P3X3H9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Garner]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Check-In] but found [Check-in]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Check-In] but found [Check-in]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at testCases.checkInpageTestCase.checkInTestCase(checkInpageTestCase.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.checkInpageTestCase@57cf54e1]" started-at="2023-06-12T08:17:00 IST" name="close" finished-at="2023-06-12T08:17:00 IST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.checkInpageTestCase -->
+      <class name="testCases.paymentPageTestCases">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.paymentPageTestCases@7c711375]" started-at="2023-06-12T08:11:35 IST" name="start" finished-at="2023-06-12T08:11:55 IST" duration-ms="20095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="payMentTC(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.paymentPageTestCases@7c711375]" started-at="2023-06-12T08:11:55 IST" name="payMentTC" data-provider="getFromExcel" finished-at="2023-06-12T08:15:09 IST" duration-ms="193344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5191732343975393]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hans Baum]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[04]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[867]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payMentTC -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.paymentPageTestCases@7c711375]" started-at="2023-06-12T08:15:09 IST" name="close" finished-at="2023-06-12T08:15:10 IST" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.paymentPageTestCases -->
+      <class name="testCases.flightStatusTestCase">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:09:46 IST" name="start" finished-at="2023-06-12T08:10:08 IST" duration-ms="22712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="flightStatuspageTestCase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:10:08 IST" name="flightStatuspageTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:10:24 IST" duration-ms="15148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cjb]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[del]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8373]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightStatuspageTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:10:24 IST" name="close" finished-at="2023-06-12T08:10:24 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:10:24 IST" name="start" finished-at="2023-06-12T08:10:44 IST" duration-ms="19769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="flightStatuspageTestCase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:10:44 IST" name="flightStatuspageTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:10:59 IST" duration-ms="14679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dbr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[115]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightStatuspageTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:10:59 IST" name="close" finished-at="2023-06-12T08:10:59 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:10:59 IST" name="start" finished-at="2023-06-12T08:11:20 IST" duration-ms="21047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="flightStatuspageTestCase(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:11:20 IST" name="flightStatuspageTestCase" data-provider="getFromExcel" finished-at="2023-06-12T08:11:35 IST" duration-ms="14785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[del]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dbr]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8751]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightStatuspageTestCase -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.flightStatusTestCase@54bff557]" started-at="2023-06-12T08:11:35 IST" name="close" finished-at="2023-06-12T08:11:35 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.flightStatusTestCase -->
+      <class name="testCases.loginPageTestCases">
+        <test-method is-config="true" signature="start()[pri:0, instance:testCases.loginPageTestCases@16a0ee18]" started-at="2023-06-12T07:58:44 IST" name="start" finished-at="2023-06-12T07:59:37 IST" duration-ms="52196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="loginPagetestcases(java.lang.String,java.lang.String)[pri:0, instance:testCases.loginPageTestCases@16a0ee18]" started-at="2023-06-12T07:59:37 IST" name="loginPagetestcases" data-provider="getFromExcel" finished-at="2023-06-12T07:59:47 IST" duration-ms="10520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9751862387]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meenu@120899]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPagetestcases -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCases.loginPageTestCases@16a0ee18]" started-at="2023-06-12T07:59:47 IST" name="close" finished-at="2023-06-12T07:59:48 IST" duration-ms="1112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testCases.loginPageTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
